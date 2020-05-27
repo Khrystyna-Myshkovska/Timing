@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(7, 7, 53);
+}
+
+div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200px;
+}
+
+.firstP,
+.secondP,
+.thirdP {
+    border: 1px solid rgb(62, 137, 167);
+}
+.firstP{
+    margin-top: 5px;
+}
+.secondP {
+    margin: 55px 0 55px 0;
+    display: flex;
+}
+.thirdP{
+    display: flex;
+}
+.currentDate,
+.currentTime {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-shadow:  0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+    color: rgb(62, 137, 167);
+}
+
+.currentDate {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.button{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid rgb(62, 137, 167);
+    background: none;
+    border-radius: 5px;
+    color: rgb(62, 137, 167);
+}
+.stopWatch{
+    margin-left: 100px;
+    width: 50%;
+}
+.startStop{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-shadow:  0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+    color: rgb(62, 137, 167);
+}
+.buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+.showStopTime{
+    width: 50%;
+}
+.timeField{
+    border: 1px solid rgb(124, 189, 215);
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-shadow:  0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+    color: rgb(62, 137, 167);
+}
+li{
+    list-style-type: none;
+}
+.setTimer{
+    width: 50%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+    color: rgb(62, 137, 167);
+}
+.minutes{
+    font-size: 15px;
+}
+.timer{
+    width: 50%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+    color: rgb(62, 137, 167);
+}
+.txtTimeSnd{
+    margin-bottom: 15px;
+}

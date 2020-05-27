@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="firstP">
+        <p class="currentDate"></p>
+        <p class="currentTime"></p>
+    </div>
+    <div class="secondP">
+        <div class="stopWatch">
+            <p class="startStop">00 : 00 : 00 . 000</p>
+            <p class="buttons">
+              <button onclick="start()" class="button start">start</button>
+              <button class="button loop">loop</button>
+              <button onclick="stop()" class="button stop">stop</button>
+              <button onclick="reset()" class="button reset">reset</button>
+            </p>
+        </div>
+        <div class="showStopTime">
+            <div class="timeField">
+               <ul class="list"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="thirdP">
+        <div class="setTimer">
+            <p class="txtTimeFst"></p>
+            <p class="minutes">minutes</p>
+            <button class="button plus">+</button>
+            <button class="button minus">-</button>
+        </div>
+        <div class="timer">
+            <p class="txtTimeSnd">00 : 00</p>
+            <button onclick="startTimer()" class="button startCountdown">start</button>
+            <button class="button stopCountdown">stop</button>
+            <button class="button resetCountdown">reset</button>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
